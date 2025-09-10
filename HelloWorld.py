@@ -1,11 +1,5 @@
-class HelloMessage:
-    def show():
-        helloMsg = 'Hello Programming World'
-        print(helloMsg)
-        courseMsg = "Programming Principles with Python"
-        print(courseMsg)
-        courseNo = 10004
-        print('#prog', courseNo, sep='')        
+#obtain the definition of the HelloMessage class from the HelloMessageModule
+from HelloMessageModule import HelloMessage
 
 #use the class and its method defined above
 msg = HelloMessage()
